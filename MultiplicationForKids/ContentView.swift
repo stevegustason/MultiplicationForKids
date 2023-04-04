@@ -8,14 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    // Variable to track whether the user is on the settings screen or playing the game
+    @State private var settingsOrPlay = "Settings"
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
         }
-        .padding()
     }
 }
 
